@@ -10,7 +10,6 @@ model = None
 encoders = joblib.load("encoders.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
 
-@spaces.GPU
 def predict_price(
     property_type,
     room_type,
@@ -201,4 +200,7 @@ with gr.Blocks(title="Airbnb Price Prediction") as demo:
         outputs=output
     )
 
-demo.launch()
+demo.launch(
+    server_name = "0.0.0.0",
+    server_port = int(os.environ.get("PORT", 7860))
+)
