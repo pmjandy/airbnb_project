@@ -64,3 +64,16 @@ price prediction
 - 숙소의 편의시설이 많을수록 숙박 가격이 높아지는 경향을 확인
 - 객실유형, 숙소유형 또한 가격과 높은 연관성을 가짐
 
+## 📷 Demo
+사용자는 다음의 정보를 선택합니다.
+- property type(apartment / bed&breakfast / bungalow / condominium / guest suite / guesthouse / house / loft / vacation home 중 택1)
+- room type(entire home/apt / private room / shared room 중 택1)
+- bed type(real bed / airbed / couch / futon / pull-out sofa 중 택1)
+- bathrooms
+- bedrooms
+- beds
+- accommodates
+- amenities(pool/breakfast/internet/kitchen/free parking on premises/air-conditioning or heating/hot tub/washer/dryer/self check-in/tv 중 복수선택 가능)
+
+출력결과
+- 1박 당 예상 가격($)
