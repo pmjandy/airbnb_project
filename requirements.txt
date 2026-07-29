@@ -1,6 +1,6 @@
 gradio==5.38.0
 pandas==2.2.3
 numpy==1.26.4
-scikit-learn==1.5.2
+scikit-learn==1.5.2 --only-binary=:all:
 tensorflow==2.18.0
 joblib==1.4.2
