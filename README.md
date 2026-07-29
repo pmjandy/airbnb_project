@@ -73,7 +73,8 @@ price prediction
 - bedrooms
 - beds
 - accommodates
-- amenities(pool/breakfast/internet/kitchen/free parking on premises/air-conditioning or heating/hot tub/washer/dryer/self check-in/tv 중 복수선택 가능)
+- amenities(pool / breakfast / internet / kitchen / free parking on premises / air-conditioning or heating / hot tub / washer / dryer / self check-in / tv 중 복수선택 가능)
 
+  
 출력결과
 - 1박 당 예상 가격($)
