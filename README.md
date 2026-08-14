@@ -47,7 +47,7 @@ data preprocessing
 ↓  
 feature engineering  
 ↓  
-train/test split  
+train/validation/test split  (7:1.5:1.5)
 ↓  
 TensorFlow regression model  
 ↓  
