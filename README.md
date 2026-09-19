@@ -6,7 +6,7 @@ https://airbnb-prediction-rvnm.onrender.com
 
 ## 📌Project Overview
 에어비앤비 숙소의 다양한 정보를 활용하여 숙소 가격을 예측하는 머신러닝 프로젝트입니다.  
-Kaggle에서 제공하는 Airbnb 데이터를 활용하여 데이터 전처리, Feature Engineering, 범주형 변수 인코딩을 수행한 후 TensorFlow 기반 회귀 모델을 구현하여 가격을 에측했습니다.
+Kaggle에서 제공하는 Airbnb 데이터를 활용하여 데이터 전처리, Feature Engineering, 범주형 변수 인코딩을 수행한 후 TensorFlow 기반 회귀 모델을 구현하여 가격을 예측했습니다.
 
 ## 🛠️Development Environment
 ### Language
@@ -40,7 +40,7 @@ rows: 55528
 
 
 ##  🤖Model
-TensorFlow(Keras)를 활용하여 숙소 가격을 에측하는 회귀 모델을 구현했습니다.
+TensorFlow(Keras)를 활용하여 숙소 가격을 예측하는 회귀 모델을 구현했습니다.
 
 kaggle dataset  
 ↓  
