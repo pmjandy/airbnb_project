@@ -1,14 +1,19 @@
-# 🏠Airbnb Price Prediction
+# 🏠 Airbnb Price Prediction
 
-## 🛜Render URL
+## 🛜 Render URL
 링크로 들어가시면 해당 프로젝트의 데모를 확인할 수 있습니다!  
 https://airbnb-prediction-rvnm.onrender.com
 
-## 📌Project Overview
+## 📌 Project Overview
 에어비앤비 숙소의 다양한 정보를 활용하여 숙소 가격을 예측하는 머신러닝 프로젝트입니다.  
 Kaggle에서 제공하는 Airbnb 데이터를 활용하여 데이터 전처리, Feature Engineering, 범주형 변수 인코딩을 수행한 후 TensorFlow 기반 회귀 모델을 구현하여 가격을 예측했습니다.
 
-## 🛠️Development Environment
+## 📚 My Role
+- 데이터 수집
+- 데이터 전처리 및 변수 인코딩
+- 모델 구현
+
+## 🛠️ Development Environment
 ### Language
 - Python
 
@@ -21,13 +26,13 @@ Kaggle에서 제공하는 Airbnb 데이터를 활용하여 데이터 전처리, 
 - Seaborn
 
 
-## 📊Dataset
+## 📊 Dataset
 
 Airbnb price prediction  
 https://www.kaggle.com/datasets/stevezhenghp/airbnb-price-prediction
 
 
-## ⚙️Data Preprocessing
+## ⚙️ Data Preprocessing
 - 결측치 및 이상치 제거
 - 무의미한 변수 제거(id, name, thumbnail_url 등)
 - Amenities 항목 중 필수 11개를 원핫인코딩 하여 별개의 칼럼으로 생성
@@ -39,7 +44,7 @@ columns: 27
 rows: 55528
 
 
-##  🤖Model
+## 🤖 Model
 TensorFlow(Keras)를 활용하여 숙소 가격을 예측하는 회귀 모델을 구현했습니다.
 
 kaggle dataset  
@@ -55,13 +60,13 @@ TensorFlow regression model
 price prediction
 
 
-## 📈Result
+## 📈 Result
 |	R2 score	|	Mean Squared Error	|
 |---|---|
 |	0.6255	|	0.1452	|
 
 
-## 💡Insight
+## 💡 Insight
 - 숙소의 편의시설이 많을수록 숙박 가격이 높아지는 경향을 확인
 - 숙박인원(accommodates)이 가격과 가장 높은 연관성(0.56)
 - 조식의 경우, 없는 경우가 숙소 값이 높은 경향을 가짐
