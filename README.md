@@ -1,7 +1,7 @@
 # 🏠 Airbnb Price Prediction(2023.11~2024.01)
 
 ## 🛜 Render URL
-링크로 들어가시면 해당 프로젝트의 데모를 확인할 수 있습니다!  
+링크로 들어가시면 해당 프로젝트의 데모를 확인할 수 있습니다! (첫 접속 시 다소 시간이 걸릴 수 있습니다)
 https://airbnb-prediction-rvnm.onrender.com
 
 ## 📌 Project Overview
